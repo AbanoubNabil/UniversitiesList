@@ -1,0 +1,3 @@
+[submodule "SubProjects/UnivirsityDetails"]
+	path = SubProjects/UnivirsityDetails
+	url = https://github.com/AbanoubNabil/UnivirsityDetails.git

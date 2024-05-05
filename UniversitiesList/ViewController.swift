@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UnivirsityDetails
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func moveToDetails(_ sender: Any) {
+        let view = DetailsViewController()
+        self.present(view, animated: true)
+    }
+    
 }
 
