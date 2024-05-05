@@ -38,6 +38,13 @@ extension UniversityListPresenter {
     private func fetchData() {
         interactor.fetchUniversityData()
     }
+    
+    private func refreshData() {
+        if Utilities.isInternetAvailable(){
+            fetchData()
+        }
+    }
+    
 }
 
 // MARK: - UniversityListInteractorOutputProtocol
@@ -73,6 +80,6 @@ extension UniversityListPresenter {
 extension UniversityListPresenter: UniversityDetailsViewControllerDelegate {
     
     func refreshList() {
-        fetchData()
+        refreshData()
     }
 }
