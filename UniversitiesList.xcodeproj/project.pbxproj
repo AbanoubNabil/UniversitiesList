@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		1848EC462BE535BC001453FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848EC452BE535BC001453FD /* AppDelegate.swift */; };
 		1848EC482BE535BC001453FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848EC472BE535BC001453FD /* SceneDelegate.swift */; };
-		1848EC4A2BE535BC001453FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848EC492BE535BC001453FD /* ViewController.swift */; };
-		1848EC4D2BE535BC001453FD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1848EC4C2BE535BC001453FD /* Base */; };
 		1848EC4F2BE535BE001453FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848EC4E2BE535BE001453FD /* Assets.xcassets */; };
-		1848EC522BE535BE001453FD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1848EC512BE535BE001453FD /* Base */; };
 		1848EC5D2BE535BF001453FD /* UniversitiesListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848EC5C2BE535BF001453FD /* UniversitiesListTests.swift */; };
 		1848EC672BE535BF001453FD /* UniversitiesListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848EC662BE535BF001453FD /* UniversitiesListUITests.swift */; };
 		1848EC692BE535BF001453FD /* UniversitiesListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848EC682BE535BF001453FD /* UniversitiesListUITestsLaunchTests.swift */; };
@@ -20,6 +17,33 @@
 		184E28DA2BE68894003E12D0 /* Pods_UniversitiesList.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184E28D82BE68894003E12D0 /* Pods_UniversitiesList.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		184E28DD2BE68899003E12D0 /* UnivirsityDetails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184E28DC2BE68899003E12D0 /* UnivirsityDetails.framework */; };
 		184E28DE2BE68899003E12D0 /* UnivirsityDetails.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 184E28DC2BE68899003E12D0 /* UnivirsityDetails.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BF65652BE7A0B2003CFBF2 /* UniversityListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF652A2BE7A0B2003CFBF2 /* UniversityListProtocols.swift */; };
+		18BF65662BE7A0B2003CFBF2 /* UniversityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF652C2BE7A0B2003CFBF2 /* UniversityListInteractor.swift */; };
+		18BF65672BE7A0B2003CFBF2 /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF652F2BE7A0B2003CFBF2 /* UniversityListPresenter.swift */; };
+		18BF65682BE7A0B2003CFBF2 /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65312BE7A0B2003CFBF2 /* UniversityListRouter.swift */; };
+		18BF65692BE7A0B2003CFBF2 /* UniversityListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65332BE7A0B2003CFBF2 /* UniversityListTableViewCell.swift */; };
+		18BF656A2BE7A0B2003CFBF2 /* UniversityListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BF65342BE7A0B2003CFBF2 /* UniversityListTableViewCell.xib */; };
+		18BF656B2BE7A0B2003CFBF2 /* UniversityListTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65362BE7A0B2003CFBF2 /* UniversityListTableViewDelegate.swift */; };
+		18BF656C2BE7A0B2003CFBF2 /* UniversityUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65372BE7A0B2003CFBF2 /* UniversityUIModel.swift */; };
+		18BF656D2BE7A0B2003CFBF2 /* UniversityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF653A2BE7A0B2003CFBF2 /* UniversityListViewController.swift */; };
+		18BF656E2BE7A0B2003CFBF2 /* UniversityListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BF653B2BE7A0B2003CFBF2 /* UniversityListViewController.xib */; };
+		18BF65702BE7A0B2003CFBF2 /* UniversityDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65412BE7A0B2003CFBF2 /* UniversityDb.swift */; };
+		18BF65712BE7A0B2003CFBF2 /* RemoteDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65432BE7A0B2003CFBF2 /* RemoteDataSourceProtocol.swift */; };
+		18BF65722BE7A0B2003CFBF2 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65452BE7A0B2003CFBF2 /* RemoteDataSource.swift */; };
+		18BF65752BE7A0B2003CFBF2 /* RealmDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF654C2BE7A0B2003CFBF2 /* RealmDatabaseProtocol.swift */; };
+		18BF65762BE7A0B2003CFBF2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65502BE7A0B2003CFBF2 /* APIError.swift */; };
+		18BF65772BE7A0B2003CFBF2 /* APIServiceUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65522BE7A0B2003CFBF2 /* APIServiceUtilities.swift */; };
+		18BF65782BE7A0B2003CFBF2 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65542BE7A0B2003CFBF2 /* EndPoint.swift */; };
+		18BF65792BE7A0B2003CFBF2 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65562BE7A0B2003CFBF2 /* ServiceProtocol.swift */; };
+		18BF657A2BE7A0B2003CFBF2 /* UniversityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65582BE7A0B2003CFBF2 /* UniversityModel.swift */; };
+		18BF657B2BE7A0B2003CFBF2 /* APIServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF655B2BE7A0B2003CFBF2 /* APIServiceConstants.swift */; };
+		18BF657C2BE7A0B2003CFBF2 /* APIServiceURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF655D2BE7A0B2003CFBF2 /* APIServiceURLSession.swift */; };
+		18BF657D2BE7A0B2003CFBF2 /* UniversityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65622BE7A0B2003CFBF2 /* UniversityEntity.swift */; };
+		18BF657E2BE7A0B2003CFBF2 /* UniversityListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65642BE7A0B2003CFBF2 /* UniversityListTableView.swift */; };
+		18BF658A2BE82CBE003CFBF2 /* LocalDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF65892BE82CBE003CFBF2 /* LocalDataSourceProtocol.swift */; };
+		18BF658C2BE82CD2003CFBF2 /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF658B2BE82CD2003CFBF2 /* LocalDataSource.swift */; };
+		18BF658E2BE8319C003CFBF2 /* UnivisttityLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF658D2BE8319B003CFBF2 /* UnivisttityLocalService.swift */; };
+		18BF65902BE831C0003CFBF2 /* UnivisttityLocalServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF658F2BE831C0003CFBF2 /* UnivisttityLocalServiceProtocol.swift */; };
 		7C8BBF404CC0A0F2649706E8 /* Pods_UniversitiesListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F3C187AC26D843297720C5 /* Pods_UniversitiesListTests.framework */; };
 		A9376CB776AA59350F8E5140 /* Pods_UniversitiesList_UniversitiesListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6FEE2FFB059C7928B5983F /* Pods_UniversitiesList_UniversitiesListUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,10 +85,7 @@
 		1848EC422BE535BC001453FD /* UniversitiesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversitiesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1848EC452BE535BC001453FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1848EC472BE535BC001453FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1848EC492BE535BC001453FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1848EC4C2BE535BC001453FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1848EC4E2BE535BE001453FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1848EC512BE535BE001453FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1848EC532BE535BE001453FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1848EC582BE535BF001453FD /* UniversitiesListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversitiesListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1848EC5C2BE535BF001453FD /* UniversitiesListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesListTests.swift; sourceTree = "<group>"; };
@@ -73,6 +94,33 @@
 		1848EC682BE535BF001453FD /* UniversitiesListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		184E28D82BE68894003E12D0 /* Pods_UniversitiesList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UniversitiesList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184E28DC2BE68899003E12D0 /* UnivirsityDetails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnivirsityDetails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BF652A2BE7A0B2003CFBF2 /* UniversityListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListProtocols.swift; sourceTree = "<group>"; };
+		18BF652C2BE7A0B2003CFBF2 /* UniversityListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListInteractor.swift; sourceTree = "<group>"; };
+		18BF652F2BE7A0B2003CFBF2 /* UniversityListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListPresenter.swift; sourceTree = "<group>"; };
+		18BF65312BE7A0B2003CFBF2 /* UniversityListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListRouter.swift; sourceTree = "<group>"; };
+		18BF65332BE7A0B2003CFBF2 /* UniversityListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListTableViewCell.swift; sourceTree = "<group>"; };
+		18BF65342BE7A0B2003CFBF2 /* UniversityListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversityListTableViewCell.xib; sourceTree = "<group>"; };
+		18BF65362BE7A0B2003CFBF2 /* UniversityListTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListTableViewDelegate.swift; sourceTree = "<group>"; };
+		18BF65372BE7A0B2003CFBF2 /* UniversityUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityUIModel.swift; sourceTree = "<group>"; };
+		18BF653A2BE7A0B2003CFBF2 /* UniversityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListViewController.swift; sourceTree = "<group>"; };
+		18BF653B2BE7A0B2003CFBF2 /* UniversityListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversityListViewController.xib; sourceTree = "<group>"; };
+		18BF65412BE7A0B2003CFBF2 /* UniversityDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityDb.swift; sourceTree = "<group>"; };
+		18BF65432BE7A0B2003CFBF2 /* RemoteDataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataSourceProtocol.swift; sourceTree = "<group>"; };
+		18BF65452BE7A0B2003CFBF2 /* RemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		18BF654C2BE7A0B2003CFBF2 /* RealmDatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDatabaseProtocol.swift; sourceTree = "<group>"; };
+		18BF65502BE7A0B2003CFBF2 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		18BF65522BE7A0B2003CFBF2 /* APIServiceUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceUtilities.swift; sourceTree = "<group>"; };
+		18BF65542BE7A0B2003CFBF2 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		18BF65562BE7A0B2003CFBF2 /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		18BF65582BE7A0B2003CFBF2 /* UniversityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityModel.swift; sourceTree = "<group>"; };
+		18BF655B2BE7A0B2003CFBF2 /* APIServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceConstants.swift; sourceTree = "<group>"; };
+		18BF655D2BE7A0B2003CFBF2 /* APIServiceURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceURLSession.swift; sourceTree = "<group>"; };
+		18BF65622BE7A0B2003CFBF2 /* UniversityEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityEntity.swift; sourceTree = "<group>"; };
+		18BF65642BE7A0B2003CFBF2 /* UniversityListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListTableView.swift; sourceTree = "<group>"; };
+		18BF65892BE82CBE003CFBF2 /* LocalDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSourceProtocol.swift; sourceTree = "<group>"; };
+		18BF658B2BE82CD2003CFBF2 /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
+		18BF658D2BE8319B003CFBF2 /* UnivisttityLocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivisttityLocalService.swift; sourceTree = "<group>"; };
+		18BF658F2BE831C0003CFBF2 /* UnivisttityLocalServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivisttityLocalServiceProtocol.swift; sourceTree = "<group>"; };
 		44680E1CEEE7811F860D8977 /* Pods-UniversitiesListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesListTests.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesListTests/Pods-UniversitiesListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A6FEE2FFB059C7928B5983F /* Pods_UniversitiesList_UniversitiesListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversitiesList_UniversitiesListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		625E436F2798DCB22A81C595 /* Pods-UniversitiesList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesList.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesList/Pods-UniversitiesList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,12 +184,13 @@
 		1848EC442BE535BC001453FD /* UniversitiesList */ = {
 			isa = PBXGroup;
 			children = (
+				18BF65612BE7A0B2003CFBF2 /* DataLayer */,
+				18BF65632BE7A0B2003CFBF2 /* Entities */,
+				18BF653E2BE7A0B2003CFBF2 /* UniversityListModule */,
+				18BF65642BE7A0B2003CFBF2 /* UniversityListTableView.swift */,
 				1848EC452BE535BC001453FD /* AppDelegate.swift */,
 				1848EC472BE535BC001453FD /* SceneDelegate.swift */,
-				1848EC492BE535BC001453FD /* ViewController.swift */,
-				1848EC4B2BE535BC001453FD /* Main.storyboard */,
 				1848EC4E2BE535BE001453FD /* Assets.xcassets */,
-				1848EC502BE535BE001453FD /* LaunchScreen.storyboard */,
 				1848EC532BE535BE001453FD /* Info.plist */,
 			);
 			path = UniversitiesList;
@@ -162,6 +211,277 @@
 				1848EC682BE535BF001453FD /* UniversitiesListUITestsLaunchTests.swift */,
 			);
 			path = UniversitiesListUITests;
+			sourceTree = "<group>";
+		};
+		18BF652B2BE7A0B2003CFBF2 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				18BF652A2BE7A0B2003CFBF2 /* UniversityListProtocols.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		18BF652D2BE7A0B2003CFBF2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				18BF652C2BE7A0B2003CFBF2 /* UniversityListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		18BF652E2BE7A0B2003CFBF2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		18BF65302BE7A0B2003CFBF2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				18BF652F2BE7A0B2003CFBF2 /* UniversityListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		18BF65322BE7A0B2003CFBF2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65312BE7A0B2003CFBF2 /* UniversityListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		18BF65352BE7A0B2003CFBF2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65332BE7A0B2003CFBF2 /* UniversityListTableViewCell.swift */,
+				18BF65342BE7A0B2003CFBF2 /* UniversityListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18BF65382BE7A0B2003CFBF2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65362BE7A0B2003CFBF2 /* UniversityListTableViewDelegate.swift */,
+				18BF65372BE7A0B2003CFBF2 /* UniversityUIModel.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		18BF65392BE7A0B2003CFBF2 /* UniversityListTableView */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65352BE7A0B2003CFBF2 /* Cell */,
+				18BF65382BE7A0B2003CFBF2 /* protocols */,
+			);
+			path = UniversityListTableView;
+			sourceTree = "<group>";
+		};
+		18BF653C2BE7A0B2003CFBF2 /* UniversityListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18BF653A2BE7A0B2003CFBF2 /* UniversityListViewController.swift */,
+				18BF653B2BE7A0B2003CFBF2 /* UniversityListViewController.xib */,
+			);
+			path = UniversityListViewController;
+			sourceTree = "<group>";
+		};
+		18BF653D2BE7A0B2003CFBF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65392BE7A0B2003CFBF2 /* UniversityListTableView */,
+				18BF653C2BE7A0B2003CFBF2 /* UniversityListViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18BF653E2BE7A0B2003CFBF2 /* UniversityListModule */ = {
+			isa = PBXGroup;
+			children = (
+				18BF652B2BE7A0B2003CFBF2 /* Contract */,
+				18BF652D2BE7A0B2003CFBF2 /* Interactor */,
+				18BF652E2BE7A0B2003CFBF2 /* Localization */,
+				18BF65302BE7A0B2003CFBF2 /* Presenter */,
+				18BF65322BE7A0B2003CFBF2 /* Router */,
+				18BF653D2BE7A0B2003CFBF2 /* View */,
+			);
+			path = UniversityListModule;
+			sourceTree = "<group>";
+		};
+		18BF65402BE7A0B2003CFBF2 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65892BE82CBE003CFBF2 /* LocalDataSourceProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		18BF65422BE7A0B2003CFBF2 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65402BE7A0B2003CFBF2 /* protocol */,
+				18BF658B2BE82CD2003CFBF2 /* LocalDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		18BF65442BE7A0B2003CFBF2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65432BE7A0B2003CFBF2 /* RemoteDataSourceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		18BF65462BE7A0B2003CFBF2 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65442BE7A0B2003CFBF2 /* Protocol */,
+				18BF65452BE7A0B2003CFBF2 /* RemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		18BF65472BE7A0B2003CFBF2 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65422BE7A0B2003CFBF2 /* Local */,
+				18BF65462BE7A0B2003CFBF2 /* Remote */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		18BF654D2BE7A0B2003CFBF2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65412BE7A0B2003CFBF2 /* UniversityDb.swift */,
+				18BF654C2BE7A0B2003CFBF2 /* RealmDatabaseProtocol.swift */,
+				18BF658D2BE8319B003CFBF2 /* UnivisttityLocalService.swift */,
+				18BF658F2BE831C0003CFBF2 /* UnivisttityLocalServiceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		18BF654E2BE7A0B2003CFBF2 /* DatabaseService */ = {
+			isa = PBXGroup;
+			children = (
+				18BF654D2BE7A0B2003CFBF2 /* Protocol */,
+			);
+			path = DatabaseService;
+			sourceTree = "<group>";
+		};
+		18BF654F2BE7A0B2003CFBF2 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				18BF654E2BE7A0B2003CFBF2 /* DatabaseService */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		18BF65512BE7A0B2003CFBF2 /* APIError */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65502BE7A0B2003CFBF2 /* APIError.swift */,
+			);
+			path = APIError;
+			sourceTree = "<group>";
+		};
+		18BF65532BE7A0B2003CFBF2 /* APIServiceUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65522BE7A0B2003CFBF2 /* APIServiceUtilities.swift */,
+			);
+			path = APIServiceUtilities;
+			sourceTree = "<group>";
+		};
+		18BF65552BE7A0B2003CFBF2 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65542BE7A0B2003CFBF2 /* EndPoint.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		18BF65572BE7A0B2003CFBF2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65562BE7A0B2003CFBF2 /* ServiceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		18BF65592BE7A0B2003CFBF2 /* UnivesityModel */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65582BE7A0B2003CFBF2 /* UniversityModel.swift */,
+			);
+			path = UnivesityModel;
+			sourceTree = "<group>";
+		};
+		18BF655A2BE7A0B2003CFBF2 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65592BE7A0B2003CFBF2 /* UnivesityModel */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		18BF655C2BE7A0B2003CFBF2 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				18BF655B2BE7A0B2003CFBF2 /* APIServiceConstants.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		18BF655E2BE7A0B2003CFBF2 /* ServicesAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65512BE7A0B2003CFBF2 /* APIError */,
+				18BF65532BE7A0B2003CFBF2 /* APIServiceUtilities */,
+				18BF65552BE7A0B2003CFBF2 /* EndPoints */,
+				18BF65572BE7A0B2003CFBF2 /* Protocol */,
+				18BF655A2BE7A0B2003CFBF2 /* Response */,
+				18BF655C2BE7A0B2003CFBF2 /* Target */,
+				18BF655D2BE7A0B2003CFBF2 /* APIServiceURLSession.swift */,
+			);
+			path = ServicesAPIService;
+			sourceTree = "<group>";
+		};
+		18BF655F2BE7A0B2003CFBF2 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				18BF655E2BE7A0B2003CFBF2 /* ServicesAPIService */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		18BF65602BE7A0B2003CFBF2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18BF654F2BE7A0B2003CFBF2 /* Local */,
+				18BF655F2BE7A0B2003CFBF2 /* Remote */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18BF65612BE7A0B2003CFBF2 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65472BE7A0B2003CFBF2 /* DataSources */,
+				18BF65602BE7A0B2003CFBF2 /* Services */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		18BF65632BE7A0B2003CFBF2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				18BF65622BE7A0B2003CFBF2 /* UniversityEntity.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		9FAB4CA6F4943DEA57712CD9 /* Frameworks */ = {
@@ -200,6 +520,7 @@
 				1848EC3F2BE535BB001453FD /* Frameworks */,
 				1848EC402BE535BB001453FD /* Resources */,
 				184E28DB2BE68894003E12D0 /* Embed Frameworks */,
+				F3A21E6C5EC45792F0B93A5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +558,7 @@
 				1848EC5E2BE535BF001453FD /* Sources */,
 				1848EC5F2BE535BF001453FD /* Frameworks */,
 				1848EC602BE535BF001453FD /* Resources */,
+				E1B8B72EE52E4BFE3C154A62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,8 +619,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1848EC4F2BE535BE001453FD /* Assets.xcassets in Resources */,
-				1848EC522BE535BE001453FD /* Base in Resources */,
-				1848EC4D2BE535BC001453FD /* Base in Resources */,
+				18BF656A2BE7A0B2003CFBF2 /* UniversityListTableViewCell.xib in Resources */,
+				18BF656E2BE7A0B2003CFBF2 /* UniversityListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +641,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		E1B8B72EE52E4BFE3C154A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-UniversitiesListUITests/Pods-UniversitiesList-UniversitiesListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-UniversitiesListUITests/Pods-UniversitiesList-UniversitiesListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList-UniversitiesListUITests/Pods-UniversitiesList-UniversitiesListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E2CF4C9F241BE4AAA18AA646 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +678,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A21E6C5EC45792F0B93A5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList/Pods-UniversitiesList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList/Pods-UniversitiesList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversitiesList/Pods-UniversitiesList-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F886570DE1B159E1E5CD5AE2 /* [CP] Check Pods Manifest.lock */ = {
@@ -392,9 +748,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1848EC4A2BE535BC001453FD /* ViewController.swift in Sources */,
+				18BF65722BE7A0B2003CFBF2 /* RemoteDataSource.swift in Sources */,
+				18BF657D2BE7A0B2003CFBF2 /* UniversityEntity.swift in Sources */,
+				18BF658E2BE8319C003CFBF2 /* UnivisttityLocalService.swift in Sources */,
+				18BF657C2BE7A0B2003CFBF2 /* APIServiceURLSession.swift in Sources */,
+				18BF65702BE7A0B2003CFBF2 /* UniversityDb.swift in Sources */,
+				18BF657A2BE7A0B2003CFBF2 /* UniversityModel.swift in Sources */,
+				18BF65712BE7A0B2003CFBF2 /* RemoteDataSourceProtocol.swift in Sources */,
 				1848EC462BE535BC001453FD /* AppDelegate.swift in Sources */,
+				18BF65672BE7A0B2003CFBF2 /* UniversityListPresenter.swift in Sources */,
+				18BF656C2BE7A0B2003CFBF2 /* UniversityUIModel.swift in Sources */,
+				18BF658C2BE82CD2003CFBF2 /* LocalDataSource.swift in Sources */,
+				18BF65762BE7A0B2003CFBF2 /* APIError.swift in Sources */,
+				18BF65662BE7A0B2003CFBF2 /* UniversityListInteractor.swift in Sources */,
+				18BF65772BE7A0B2003CFBF2 /* APIServiceUtilities.swift in Sources */,
+				18BF65902BE831C0003CFBF2 /* UnivisttityLocalServiceProtocol.swift in Sources */,
+				18BF65782BE7A0B2003CFBF2 /* EndPoint.swift in Sources */,
 				1848EC482BE535BC001453FD /* SceneDelegate.swift in Sources */,
+				18BF658A2BE82CBE003CFBF2 /* LocalDataSourceProtocol.swift in Sources */,
+				18BF65652BE7A0B2003CFBF2 /* UniversityListProtocols.swift in Sources */,
+				18BF657E2BE7A0B2003CFBF2 /* UniversityListTableView.swift in Sources */,
+				18BF65682BE7A0B2003CFBF2 /* UniversityListRouter.swift in Sources */,
+				18BF65752BE7A0B2003CFBF2 /* RealmDatabaseProtocol.swift in Sources */,
+				18BF656B2BE7A0B2003CFBF2 /* UniversityListTableViewDelegate.swift in Sources */,
+				18BF657B2BE7A0B2003CFBF2 /* APIServiceConstants.swift in Sources */,
+				18BF65692BE7A0B2003CFBF2 /* UniversityListTableViewCell.swift in Sources */,
+				18BF656D2BE7A0B2003CFBF2 /* UniversityListViewController.swift in Sources */,
+				18BF65792BE7A0B2003CFBF2 /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,25 +809,6 @@
 			targetProxy = 1848EC632BE535BF001453FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1848EC4B2BE535BC001453FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1848EC4C2BE535BC001453FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1848EC502BE535BE001453FD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1848EC512BE535BE001453FD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1848EC6A2BE535BF001453FD /* Debug */ = {
@@ -578,11 +939,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7G7238MTLW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversitiesList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,11 +968,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7G7238MTLW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversitiesList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
