@@ -28,7 +28,7 @@ end
 
 target :'UnivirsityDetails' do
   
-  project 'SubProjects/UnivirsityDetails/UnivirsityDetails.xcodeproj'
+  project 'UnivirsityDetails/UnivirsityDetails.xcodeproj'
   
 end
 

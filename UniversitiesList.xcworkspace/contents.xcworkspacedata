@@ -5,7 +5,7 @@
       location = "group:UniversitiesList.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:SubProjects/UnivirsityDetails/UnivirsityDetails.xcodeproj">
+      location = "group:UnivirsityDetails/UnivirsityDetails.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
